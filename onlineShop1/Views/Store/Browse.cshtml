@@ -5,4 +5,9 @@
 }
 
 <h2>Browsing Category: @Model.Name</h2>
-
+<ul>
+	@foreach(var cat in Model.Items)
+	{
+		<li>@cat.Title</li>
+	}
+</ul>

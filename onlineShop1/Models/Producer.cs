@@ -5,12 +5,9 @@ using System.Web;
 
 namespace onlineShop1.Models
 {
-	public class Category
+	public class Producer
 	{
-		public int CategoryId { get; set; }
-
+		public int ProducerId { get; set; }
 		public string Name { get; set; }
-		public string Description { get; set; }
-		public List<Item> Items { get; set; }
 	}
 }
